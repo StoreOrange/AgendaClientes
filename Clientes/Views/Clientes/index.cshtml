@@ -56,8 +56,8 @@
                         <td>@Html.DisplayFor(modelItem => item.Nota)</td>
                         <td>@Html.DisplayFor(modelItem => item.FechaDeRegistro)</td>
                         <td>
-                            <a class="btn btn-primary btn-sm" asp-action="Crear" asp-route-id="@item.ID">Crear</a>
-                            <a class="btn btn-info btn-sm" asp-action="Editar" asp-route-id="@item.ID">Editar</a>
+                            <a class="btn btn-primary btn-sm" asp-controller="Clientes" asp-action="Crear">Crear</a>
+                           <a class="btn btn-info btn-sm" asp-controller="Clientes" asp-action="Editar">Editar</a>
                             <a class="btn btn-danger btn-sm" asp-action="Eliminar" asp-route-id="@item.ID">Eliminar</a>
                         </td>
                     </tr>

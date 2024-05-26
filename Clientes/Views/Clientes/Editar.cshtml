@@ -1,0 +1,49 @@
+@model Clientes
+
+<h1>Editar Cliente</h1>
+
+<form asp-action="Editar">
+    <input type="hidden" asp-for="ID" />
+
+    <div class="form-group">
+        <label asp-for="Nombres" class="control-label"></label>
+        <input asp-for="Nombres" class="form-control" />
+        <span asp-validation-for="Nombres" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Apellidos" class="control-label"></label>
+        <input asp-for="Apellidos" class="form-control" />
+        <span asp-validation-for="Apellidos" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Correo" class="control-label"></label>
+        <input asp-for="Correo" class="form-control" />
+        <span asp-validation-for="Correo" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Dirección" class="control-label"></label>
+        <input asp-for="Dirección" class="form-control" />
+        <span asp-validation-for="Dirección" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Compañía" class="control-label"></label>
+        <input asp-for="Compañía" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Nota" class="control-label"></label>
+        <textarea asp-for="Nota" class="form-control"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="FechaDeRegistro" class="control-label"></label>
+        <input asp-for="FechaDeRegistro" class="form-control" />
+        <span asp-validation-for="FechaDeRegistro" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</form>
