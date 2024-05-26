@@ -12,6 +12,8 @@ namespace Clientes.Models
 
         public DbSet<Clientes> Clientes {get; set;}
 
+        public DbSet<Empleado> Empleados { get; set; } 
+
         
         
     }

@@ -1,59 +1,87 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Clientes
 build_property.RootNamespace = Clientes
-build_property.ProjectDir = C:\Users\odd_g\Desktop\Platzi\Programacion\Universidad\Clientes\clientes\
+build_property.ProjectDir = C:\Users\odd_g\Desktop\Platzi\Programacion\Universidad\Clientes\Clientes\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\odd_g\Desktop\Platzi\Programacion\Universidad\Clientes\clientes
+build_property.MSBuildProjectDirectory = C:\Users\odd_g\Desktop\Platzi\Programacion\Universidad\Clientes\Clientes
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/odd_g/Desktop/Platzi/Programacion/Universidad/Clientes/clientes/Views/Clientes/Crear.cshtml]
+[C:/Users/odd_g/Desktop/Platzi/Programacion/Universidad/Clientes/Clientes/Views/Clientes/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/odd_g/Desktop/Platzi/Programacion/Universidad/Clientes/clientes/Views/Clientes/Editar.cshtml]
+[C:/Users/odd_g/Desktop/Platzi/Programacion/Universidad/Clientes/Clientes/Views/Clientes/Editar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/odd_g/Desktop/Platzi/Programacion/Universidad/Clientes/clientes/Views/Clientes/index.cshtml]
+[C:/Users/odd_g/Desktop/Platzi/Programacion/Universidad/Clientes/Clientes/Views/Clientes/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcaW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/odd_g/Desktop/Platzi/Programacion/Universidad/Clientes/clientes/Views/Home/Index.cshtml]
+[C:/Users/odd_g/Desktop/Platzi/Programacion/Universidad/Clientes/Clientes/Views/Empleado/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/odd_g/Desktop/Platzi/Programacion/Universidad/Clientes/Clientes/Views/Empleado/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/odd_g/Desktop/Platzi/Programacion/Universidad/Clientes/Clientes/Views/Empleado/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/odd_g/Desktop/Platzi/Programacion/Universidad/Clientes/Clientes/Views/Empleado/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/odd_g/Desktop/Platzi/Programacion/Universidad/Clientes/Clientes/Views/Empleado/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/odd_g/Desktop/Platzi/Programacion/Universidad/Clientes/Clientes/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/odd_g/Desktop/Platzi/Programacion/Universidad/Clientes/clientes/Views/Home/Privacy.cshtml]
+[C:/Users/odd_g/Desktop/Platzi/Programacion/Universidad/Clientes/Clientes/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/odd_g/Desktop/Platzi/Programacion/Universidad/Clientes/clientes/Views/Shared/Error.cshtml]
+[C:/Users/odd_g/Desktop/Platzi/Programacion/Universidad/Clientes/Clientes/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/odd_g/Desktop/Platzi/Programacion/Universidad/Clientes/clientes/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/odd_g/Desktop/Platzi/Programacion/Universidad/Clientes/Clientes/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/odd_g/Desktop/Platzi/Programacion/Universidad/Clientes/clientes/Views/_ViewImports.cshtml]
+[C:/Users/odd_g/Desktop/Platzi/Programacion/Universidad/Clientes/Clientes/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/odd_g/Desktop/Platzi/Programacion/Universidad/Clientes/clientes/Views/_ViewStart.cshtml]
+[C:/Users/odd_g/Desktop/Platzi/Programacion/Universidad/Clientes/Clientes/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/odd_g/Desktop/Platzi/Programacion/Universidad/Clientes/clientes/Views/Shared/_Layout.cshtml]
+[C:/Users/odd_g/Desktop/Platzi/Programacion/Universidad/Clientes/Clientes/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-2vsgu5io8p

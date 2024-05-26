@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\odd_g\\Desktop\\Platzi\\Programacion\\Universidad\\Clientes\\clientes\\Clientes.csproj": {}
+    "C:\\Users\\odd_g\\Desktop\\Platzi\\Programacion\\Universidad\\Clientes\\Clientes\\Clientes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\odd_g\\Desktop\\Platzi\\Programacion\\Universidad\\Clientes\\clientes\\Clientes.csproj": {
+    "C:\\Users\\odd_g\\Desktop\\Platzi\\Programacion\\Universidad\\Clientes\\Clientes\\Clientes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\odd_g\\Desktop\\Platzi\\Programacion\\Universidad\\Clientes\\clientes\\Clientes.csproj",
+        "projectUniqueName": "C:\\Users\\odd_g\\Desktop\\Platzi\\Programacion\\Universidad\\Clientes\\Clientes\\Clientes.csproj",
         "projectName": "Clientes",
-        "projectPath": "C:\\Users\\odd_g\\Desktop\\Platzi\\Programacion\\Universidad\\Clientes\\clientes\\Clientes.csproj",
+        "projectPath": "C:\\Users\\odd_g\\Desktop\\Platzi\\Programacion\\Universidad\\Clientes\\Clientes\\Clientes.csproj",
         "packagesPath": "C:\\Users\\odd_g\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\odd_g\\Desktop\\Platzi\\Programacion\\Universidad\\Clientes\\clientes\\obj\\",
+        "outputPath": "C:\\Users\\odd_g\\Desktop\\Platzi\\Programacion\\Universidad\\Clientes\\Clientes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -60,6 +60,8 @@
               "version": "[8.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.5, )"
             },
@@ -72,6 +74,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             }
           },
           "imports": [
