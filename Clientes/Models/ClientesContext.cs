@@ -14,7 +14,10 @@ namespace Clientes.Models
 
         public DbSet<Empleado> Empleados { get; set; } 
 
-        
+         public async Task<List<Empleado>> GetEmpleadosByNombre(string nombre)
+         {
+            return await Empleados.FromSqlRaw("EXEC FiltrarEmpleados @Nombres={0}", nombre).ToListAsync();
+         }
         
     }
 }

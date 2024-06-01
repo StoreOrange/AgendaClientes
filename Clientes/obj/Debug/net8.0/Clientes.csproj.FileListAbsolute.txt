@@ -251,3 +251,5 @@ C:\Users\odd_g\Desktop\Platzi\Programacion\Universidad\Clientes\Clientes\obj\Deb
 C:\Users\odd_g\Desktop\Platzi\Programacion\Universidad\Clientes\Clientes\obj\Debug\net8.0\Clientes.pdb
 C:\Users\odd_g\Desktop\Platzi\Programacion\Universidad\Clientes\Clientes\obj\Debug\net8.0\Clientes.genruntimeconfig.cache
 C:\Users\odd_g\Desktop\Platzi\Programacion\Universidad\Clientes\Clientes\obj\Debug\net8.0\ref\Clientes.dll
+C:\Users\odd_g\Desktop\Platzi\Programacion\Universidad\Clientes\Clientes\bin\Debug\net8.0\package-lock.json
+C:\Users\odd_g\Desktop\Platzi\Programacion\Universidad\Clientes\Clientes\bin\Debug\net8.0\package.json

@@ -19,10 +19,10 @@ namespace Clientes.Controllers
         }
 
         // GET: Empleado
-        public async Task<IActionResult> Index()
-        {
-            return View(await _context.Empleados.ToListAsync());
-        }
+       // public async Task<IActionResult> Index()
+       // {
+      //      return View(await _context.Empleados.ToListAsync());
+      //  }
 
         // GET: Empleado/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -152,5 +152,18 @@ namespace Clientes.Controllers
         {
             return _context.Empleados.Any(e => e.Id == id);
         }
+
+
+       // GET: Empleado
+    public async Task<IActionResult> Index(string searchString)
+    {
+        if (!String.IsNullOrEmpty(searchString))
+        {
+            var empleados = await _context.GetEmpleadosByNombre(searchString);
+            return View(empleados);
+        }
+        return View(await _context.Empleados.ToListAsync());
+    }
+        
     }
 }
