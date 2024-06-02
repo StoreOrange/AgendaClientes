@@ -25,12 +25,12 @@
 </head>
 <body>
     @{
-        ViewData["Title"] = "Clientes Index";
+        ViewData["Title"] = "Clientes";
     }
 
     <div class="container mt-4">
-        <h2 class="mb-4">Index</h2>
-
+        <h2 class="mb-4">Clientes</h2>
+        <a class="btn btn-primary btn-sm" asp-controller="Clientes" asp-action="Crear">Crear</a>
         <table class="table table-striped table-bordered">
             <thead class="thead-light">
                 <tr>
@@ -56,7 +56,7 @@
                         <td>@Html.DisplayFor(modelItem => item.Nota)</td>
                         <td>@Html.DisplayFor(modelItem => item.FechaDeRegistro)</td>
                         <td>
-                            <a class="btn btn-primary btn-sm" asp-controller="Clientes" asp-action="Crear">Crear</a>
+                            
                            <a class="btn btn-info btn-sm" asp-controller="Clientes" asp-action="Editar">Editar</a>
                             <a class="btn btn-danger btn-sm" asp-action="Eliminar" asp-route-id="@item.ID">Eliminar</a>
                         </td>
